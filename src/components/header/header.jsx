@@ -7,7 +7,7 @@ function Header(props) {
     <header class={styles.header}>
       <div class={styles.logoWrapper}>
         <div class={styles.logo}>L</div>
-        <p>The Bedford L</p>
+        <p>The Bedford L Train</p>
       </div>
     </header>
   )
