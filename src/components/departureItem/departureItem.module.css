@@ -2,10 +2,6 @@
   opacity: 1;
 }
 
-*:first-child {
-  opacity: 0.5;
-}
-
 .nextDeparture {
   opacity: 0.8;
   transform: rotate(8deg);
