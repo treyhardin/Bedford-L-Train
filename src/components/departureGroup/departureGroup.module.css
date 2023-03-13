@@ -1,0 +1,9 @@
+.departureGroup {
+  /* opacity: 0.1; */
+}
+
+.departuresWrapper {
+  background-color: var(--color-reverse);
+  color: var(--color-ink);
+  border-radius: var(--space-s);
+}

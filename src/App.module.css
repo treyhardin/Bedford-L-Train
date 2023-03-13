@@ -1,0 +1,11 @@
+.App {
+  height: 100vh;
+  max-height: 100vh;
+  background-color: var(--color-primary);
+  padding: var(--space-l);
+  color: var(--color-reverse);
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  align-items: stretch;
+}

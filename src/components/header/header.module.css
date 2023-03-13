@@ -1,0 +1,21 @@
+.header {
+  flex-grow: 0;
+}
+
+.logoWrapper {
+  display: flex;
+  flex-direction: row;
+  gap: var(--space-m);
+  align-items: center;
+}
+
+.logo {
+  background-color: var(--color-secondary);
+  color: var(--color-reverse);
+  aspect-ratio: 1 / 1;
+  border-radius: 100vw;
+  width: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

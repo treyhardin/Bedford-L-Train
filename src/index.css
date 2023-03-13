@@ -1,0 +1,63 @@
+:root {
+  box-sizing: border-box;
+
+  --color-primary: #242F53;
+  --color-secondary: #686868;
+  --color-ink: #1c1c1c;
+  --color-reverse: #EAEBE4;
+
+  --space-s: 5px;
+  --space-m: 15px;
+  --space-l: 30px;
+  --space-xl: 40px;
+}
+
+@font-face {
+  font-family: 'Editorial New';
+  font-weight: normal;
+  src: url('./assets/EditorialNew-Ultralight.woff2');
+}
+
+@font-face {
+  font-family: 'DM Mono';
+  font-weight: normal;
+  src: url('./assets/DMMono-Regular.ttf');
+}
+
+/* @import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@500&display=swap'); */
+
+body {
+  margin: 0;
+  font-family: 'DM Mono', serif;
+  /* text-transform: uppercase; */
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100%;
+}
+
+html {
+  margin: 0;
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Editorial New', serif;
+  font-weight: normal;
+  /* text-transform: none; */
+  margin-top: 0;
+}
+
+h1 {
+  font-size: 64px;
+}
+
+h2 {
+  font-size: clamp(24px, 10vw, 42px);
+}
+
