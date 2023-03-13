@@ -1,9 +1,26 @@
 .departureGroup {
   /* opacity: 0.1; */
+  margin-bottom: var(--space-l);
 }
 
 .departuresWrapper {
-  background-color: var(--color-reverse);
   color: var(--color-ink);
   border-radius: var(--space-s);
+  display: flex;
+  flex-direction: row;
+  gap: 1px;
+  overflow: hidden;
 }
+
+.departuresWrapper > *:first-child {
+  flex-grow: 1;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--space-m);
+}
+
+.departuresWrapper > *:first-child > p:first-child {
+  font-size: clamp(16px, 2vw, 20px);
+  /* margin: 0; */
+}
+

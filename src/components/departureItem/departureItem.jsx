@@ -25,9 +25,9 @@ function DepartureItem(props) {
   }
 
   return (
-    <div class={`${styles.departureItem}`}>
-      <p>{getTimeUntil(props.time).minutes}</p>
-      <p>{getTimeUntil(props.time).label}</p>
+    <div class={styles.departureItem}>
+      <p class={styles.departureMinutes}>{getTimeUntil(props.time).minutes}</p>
+      <p class={styles.departureMinutesLabel}>{getTimeUntil(props.time).label}</p>
     </div>
   )
 }

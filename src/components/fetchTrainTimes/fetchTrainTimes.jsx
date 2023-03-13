@@ -1,7 +1,4 @@
 import GtfsRealtimeBindings from "gtfs-realtime-bindings";
-import { createSignal } from "solid-js";
-
-// const [trainTimes, setTrainTimes] = createSignal()
 
 export default async function fetchTrainTimes () {
 

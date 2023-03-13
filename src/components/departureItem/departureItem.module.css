@@ -1,8 +1,22 @@
 .departureItem {
-  opacity: 1;
+  background-color: var(--color-reverse);
+  padding: var(--space-s) var(--space-m);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .nextDeparture {
   opacity: 0.8;
   transform: rotate(8deg);
+}
+
+.departureMinutes {
+  /* font-size: clamp(16px, 2vw, 20px); */
+  margin: 0;
+}
+
+.departureMinutesLabel {
+
 }

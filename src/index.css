@@ -29,11 +29,21 @@
 body {
   margin: 0;
   font-family: 'DM Mono', serif;
+  font-size: clamp(12px, 1vw, 16px);
   /* text-transform: uppercase; */
   font-weight: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   height: 100%;
+}
+
+a {
+  color: var(--color-reverse);
+
+}
+
+p {
+  margin: 0 0 0.25rem;
 }
 
 html {
@@ -46,18 +56,47 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6  {
   font-family: 'Editorial New', serif;
   font-weight: normal;
-  /* text-transform: none; */
   margin-top: 0;
 }
 
-h1 {
+h1,
+.h1 {
   font-size: 64px;
 }
 
-h2 {
+h2,
+.h2 {
   font-size: clamp(24px, 10vw, 42px);
+  margin-bottom: var(--space-s);
 }
+
+h3,
+.h3 {
+  
+}
+
+h4,
+.h4 {
+  
+}
+
+h5,
+.h5 {
+  
+}
+
+h6,
+.h6 {
+  
+}
+
 
